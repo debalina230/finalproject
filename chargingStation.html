@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charging Station</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/chargingStation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="topbar">
+        <div class="container">
+          <div class="maintop">
+            <div class="lefttop">
+              <a href="#">
+                <i class="fa-solid fa-envelope"></i> Serviceevnext@info.in</a
+              >
+              <span class="top_span">|</span>
+              <a href="#">
+                <i class="fa-solid fa-location-dot"></i> 32/b AJC Road Kolkata
+                700002</a
+              >
+            </div>
+            <div class="righttop">
+              <select>
+                <option>Language</option>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>south korean</option>
+              </select>
+              <span class="top_span">|</span>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navlist">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./service.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="nav_icon">
+              <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="nav_icon2">
+              <a href="#"><img src="./images/Group 355.png" alt="manicon" /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner">
+        <div class="container">
+          <a href="./home.html"
+            ><i class="fa-solid fa-arrow-left ban_arrow"></i> Previous</a
+          >
+          <h1 class="ban_hed">Find Nearest Charging Station</h1>
+          <p class="ban_para fs-4 text-center fw-semibold">Just 3 easy steps</p>
+          <div class="near_find mt-5">
+            <div class="find1">
+              <div class="find2">
+                <img src="./images/Group 529.png" alt="findimg" />
+              </div>
+              <div class="find3 ms-3">
+                <p>Find</p>
+                <p>Station</p>
+              </div>
+            </div>
+            <div class="find1 ms-3">
+              <div class="find2">
+                <img src="./images/Group 530.png" alt="findimg2" />
+              </div>
+              <div class="find3 ms-3">
+                <p>Scan</p>
+                <p>Code</p>
+              </div>
+            </div>
+            <div class="find1 ms-4">
+              <div class="find2">
+                <img src="./images/Group 531.png" alt="findimg3" />
+              </div>
+              <div class="find3 ms-3">
+                <p>Plug</p>
+                <p>In EV</p>
+              </div>
+            </div>
+          </div>
+          <div class="ban_form">
+            <form class="ban_icon">
+              <div>
+                <span class="ban_icon1"
+                  ><i class="fa-solid fa-location-dot"></i
+                ></span>
+                <input
+                  class="ban_input"
+                  type="text"
+                  name="add"
+                  id="add"
+                  placeholder="Karol Bagh, Block 2A"
+                />
+                <span class="ban_icon2"
+                  ><i class="fa-solid fa-angle-down"></i
+                ></span>
+                <input
+                 class="ban_input"
+                  type="text"
+                  name="select"
+                  id="select"
+                  placeholder="Volvo XE 90 (ZX)"
+                />
+              </div>
+            </form>
+            <div class="ban_bar">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+          </div>
+          <div class="ban_find text-center mt-5">
+            <a href="#" class="btn">Find</a>
+          </div>
+        </div>
+      </section>
+      <!-- Downtown point -->
+      <section class="townpoint">
+        <div class="container">
+          <div class="row gx-5 townpoint_row">
+            <div class="col point_col">
+              <div class="p-3">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.54004883842!2d77.04417347155065!3d28.52725273882469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1747414511100!5m2!1sen!2sin"
+                  class="map"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                 <div class="focusleftmain">
+                  <div class="focusleft1">
+                    <div class="focuslogo">
+                      <img src="./images/Group 520 (2).png" alt="focuslogo" />
+                    </div>
+                    <div class="focuspara text-light">
+                      <p class="fs-5">Email</p>
+                      <p>serviceevnext@info.in</p>
+                    </div>
+                  </div>
+                  <div class="focusleft2">
+                    <div class="focuslogo">
+                      <img src="./images/Group 520 (2).png" alt="focuslogo" />
+                    </div>
+                    <div class="focuspara text-light">
+                      <p class="fs-5">Phone</p>
+                      <p>+033 2645 3265</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-3 rightpoint">
+            <div>Showing-2results</div>
+              <div class="filter">
+              <span><img src="./images/filter_svgrepo.com.png" alt="fil"> Short By: Default <i class="fa-solid fa-angle-down"></i></span>
+              </div>
+              </div>
+              <div class="rightpoint1">
+               <div class="rightpoint_maintext">
+                <div>
+                  <h4>Downtown Charging Point</h4>
+                  <span class="text-secondary"><i class="fa-solid fa-location-dot text-dark"></i> 412B , near Church school</span>
+                  <div class="star mt-3">
+                    <span>5.0</span>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <span class="text-secondary">(167 Reviews)</span>
+                  </div>
+                </div>
+                <div class="drives_direc">
+                  <img src="./images/Driving Directions.png" alt="drive">
+                </div>
+               </div>
+               <hr>
+               <div class="pricepoint">
+                <div><span><i class="fa-solid fa-bolt point_icon"></i> 20 kw</span></div>
+                <div><span><i class="fa-solid fa-dollar-sign point_icon"></i> ₹124.00/kw</span></div>
+                <div><span><i class="fa-solid fa-person-running point_icon"></i> 3.5 km/20 min</span></div>
+               </div>
+               <hr>
+               <div class="point_bt text-center">
+                <a href="#" class=".btn bt1">View</a>
+                <a href="#" class=".btn bt2">Book</a>
+               </div>
+              </div>
+
+               <div class="rightpoint1 mt-4">
+               <div class="rightpoint_maintext">
+                <div>
+                  <h4>Laketown Charging Point</h4>
+                  <span class="text-secondary"><i class="fa-solid fa-location-dot text-dark"></i> 412B , near Church school</span>
+                  <div class="star mt-3">
+                    <span>5.0</span>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <span class="text-secondary">(167 Reviews)</span>
+                  </div>
+                </div>
+                <div class="drives_direc">
+                  <img src="./images/Driving Directions.png" alt="drive">
+                </div>
+               </div>
+               <hr>
+               <div class="pricepoint">
+                <div><span><i class="fa-solid fa-bolt point_icon"></i> 20 kw</span></div>
+                <div><span><i class="fa-solid fa-dollar-sign point_icon"></i> ₹124.00/kw</span></div>
+                <div><span><i class="fa-solid fa-person-running point_icon"></i> 3.5 km/20 min</span></div>
+               </div>
+               <hr>
+               <div class="point_bt text-center">
+                <a href="#" class=".btn bt1">View</a>
+                <a href="#" class=".btn bt2">Book</a>
+               </div>
+              </div>
+            </div>
+          </div>
+           <p class=" follow_para fs-2 mt-4">Follow Us On</p>
+        <div class="follow_icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        </div>
+      </section>
+       <!-- Team -->
+      <section class="team">
+        <div class="container">
+          <div class="mainteam">
+            <div class="team1">
+              <div class="team2">
+                <img src="./images/Automatic Car Wash.png" alt="car1" />
+              </div>
+              <div class="team3 text-light ms-4">
+                <p class="team_text">1000+</p>
+                <p>Vehicle repairs</p>
+              </div>
+            </div>
+            <div class="team1">
+              <div class="team2">
+                <img src="./images/Service.png" alt="car2" />
+              </div>
+              <div class="team3 text-light ms-4">
+                <p class="team_text">12+</p>
+                <p>Years experience</p>
+              </div>
+            </div>
+            <div class="team1">
+              <div class="team2">
+                <img src="./images/Prize.png" alt="car3" />
+              </div>
+              <div class="team3 text-light ms-3">
+                <p class="team_text">25+</p>
+                <p>Winning awards</p>
+              </div>
+            </div>
+            <div class="team11">
+              <div class="team2">
+                <img src="./images/People.png" alt="car4" />
+              </div>
+              <div class="team3 text-light ms-4">
+                <p class="team_text">100+</p>
+                <p>Team members</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- FAQ -->
+      <section class="faq">
+        <div class="container">
+          <h4>F A Q</h4>
+          <div class="row g-0 position-relative mt-5">
+            <div class="col-md-6 mb-md-0 p-md-4 faq_col">
+              <div class="leftfaq">
+                <h3>We’re Your Moving Solution.</h3>
+                <p class="text-light my-4">
+                  Schedule a service online through our app or web-
+                </p>
+                <a href="#" class="btn">LEARN MORE</a>
+              </div>
+              <div class="leftfaq2">
+                <img src="./images/Telephone.png" alt="telephone" />
+                <h3 class="mt-4">Contact Us</h3>
+                <p>Schedule a service online through our app or website.</p>
+                <a href="#" class="btn">Call Now</a>
+              </div>
+            </div>
+            <div class="col-md-6 p-4 ps-md-0">
+              <h5 class="mt-0 fs-2">
+                Peoples <span class="ban_electric">Questions</span>
+              </h5>
+              <p class="text-secondary">
+                The time it takes to paint a car repair depends on various
+                factors, such as the extent of damage, thesize of the area to be
+                painted.
+              </p>
+
+              <div class="expensio2">
+                <div class="question">
+                  <p class="qu">1. How do repair takes on a car ?</p>
+                  <button class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <p class="para2">
+                  The time it takes to paint a car repair depends on various
+                  factors, such as the extent of damage, the size of the area to
+                  be painted, the type of paint used
+                </p>
+              </div>
+              <div class="account">
+                <div class="question">
+                  <p class="qu1">
+                    2. Can I get full service in two days ?
+                  </p>
+                  <button class="accountMinus icon minus">
+                     <i class="fa-solid fa-angle-left"></i>
+                  </button>
+                  <button class="icon accountPlus">
+                     <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <p class="accountAnswer">
+                 The time it takes to paint a car repair depends on various
+                  factors, such as the extent of damage, the size of the area to
+                  be painted, the type of paint used
+                </p>
+              </div>
+              <div class="category">
+                <div class="question">
+                  <p class="qu1">
+                    3.Do you sell speare parts ?
+                  </p>
+                  <button class="categoryMinus icon minus">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </button>
+                  <button class="icon categoryPlus">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <p class="categoryAnswer">
+                  The time it takes to paint a car repair depends on various
+                  factors, such as the extent of damage, the size of the area to
+                  be painted, the type of paint used
+                </p>
+              </div>
+              <div class="category">
+                <div class="question">
+                  <p class="qu1">
+                    4. Do you deliver car at home ?
+                  </p>
+                  <button class="categoryangleleft icon minus">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </button>
+                  <button class="icon categoryangleright">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <p class="categorypara">
+                 The time it takes to paint a car repair depends on various
+                  factors, such as the extent of damage, the size of the area to
+                  be painted, the type of paint used
+                </p>
+              </div>
+              <div class="category">
+                <div class="question">
+                  <p class="qu1">
+                    5. How long does it take to dry a full paint ?
+                  </p>
+                  <button class="categoryangleleftpara icon minus">
+                     <i class="fa-solid fa-angle-left"></i>
+                  </button>
+                  <button class="icon categoryanglerightpara">
+                     <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <p class="categorytext">
+                 The time it takes to paint a car repair depends on various
+                  factors, such as the extent of damage, the size of the area to
+                  be painted, the type of paint used
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+     <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="  row row-cols-1 row-cols-sm-2 row-cols-md-4 mainfooter">
+          <div class="col fot1">
+            <span
+              ><a href="#"><img src="./images/logo.png" alt="fotlogo" /></a
+            ></span>
+            <p>
+              At EV NEXT, we’re driving the future of electric mobility. As a
+              one-stop destination for all your EV needs, we provide
+              comprehensive service.
+            </p>
+            <div class="fot_icon">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="col foot2">
+            <p>Our Services</p>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> EV Maintenance</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Battery Service</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Charging Station</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Roadside
+                  Assistance</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> EV Upgrades</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Wash & Paints</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col foot2">
+            <p>Our Links</p>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-angles-right"></i> About Us</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-angles-right"></i> Services</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Why Choose Us</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Inhouse Shop</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Blog & News</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col foot2">
+            <p>Contact</p>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-phone"></i> +033 2645 3265</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-location-dot"></i> 32/b AJC Bose Road
+                  kolkata 700002</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-envelope"></i> serviceevnext@info.in</a
+                >
+              </li>
+            </ul>
+            <span class="fs-5 text-light ms-3 fw-bold"
+              >Sign Up for Newsletter</span
+            >
+            <form class="fot_form">
+               <span class="fot_tele"><i class="fa-brands fa-telegram"></i></span>
+              <input
+                class="fot_input"
+                type="email"
+                id="mail"
+                value="Enter Your Email"
+              />
+            </form>
+             <div class="fot_correct mt-2 text-light">
+              <span><i class="fa-solid fa-check fot_check"></i> agree with all terms and policies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last_fot">
+      <div class="container">
+        <div class="last_fot2">
+          <div>
+            <p>
+              &#169;2025 All Rights Reserved By
+              <span class="ban_electric">EV NEXT.</span>
+            </p>
+          </div>
+          <div>
+            <a href="#">Privacy Policy | Trems & Condition</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/chargingStation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+li{
+    list-style: none;
+}
+p{
+    margin-bottom: 0;
+}
+
+.container{
+    max-width: 1212px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* topbar */
+.topbar{
+    background-image: linear-gradient(to right,rgb(13, 195, 13),rgb(152, 203, 42));
+    padding: 5px 0;
+}
+
+.maintop{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    flex-wrap: wrap;
+   
+}
+.top_span{
+    color: white;
+    padding: 0 20px;
+}
+.righttop a{
+    padding: 0 10px;
+    font-size: 18px;
+}
+.righttop select{
+    background: none;
+    border: none;
+    color: white;
+}
+/* navbar */
+.navbar{
+    background-color: rgba(0, 0, 0, 0.504);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 32px;
+}
+.navlist li{
+    padding: 0 25px;
+    color: white;
+}
+.navlist li a{
+    color: white;
+}
+.active{
+    background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navlist li a:hover{
+    color: greenyellow;
+}
+.nav_icon a{
+    padding: 0 10px;
+}
+.nav_icon2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+/* banner */
+.banner{
+     font-family: "Montserrat", sans-serif;
+    background-image:url('../images/Group\ 6\ \(1\).png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ban_text h1{
+ font-size: 68px;
+ color:white;
+ padding-top: 30px;
+}
+.ban_electric{
+     background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/* Battery Service */
+.batterySurvice{
+     font-family: "Montserrat", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.batteryser_row{
+    display: flex;
+    justify-content: space-around;
+}
+.battser1{
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 50vh;
+    box-shadow: 0 0 10px grey;
+    border-radius: 20px;
+    padding: 20px 15px;
+}
+.battser1 ul li{
+    padding: 8px 10px 8px 0;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.battser1 ul li:hover{
+    background-color: rgb(203, 232, 146);
+}
+.battser1 li a{
+    color: black;
+}
+
+.rig_ar1{
+    background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+     padding: 10.5px;
+     margin-right: 10px;
+     color: white !important;
+}
+.battser1 .active1{
+    background-color: black;
+    color: white !important;
+}
+.battser1 .active1 a{
+    color: white;
+}
+
+.battser2{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px 15px;
+    margin-top: 10px;
+}
+.battser2 ul li{
+    margin-top: 15px;
+    /* font-size: 15px; */
+}
+.battser2 .btn{
+   background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+   color: white;  
+   padding: 8px 50px;
+   border-radius: 12px;
+   margin-top: 15px;
+}
+.battser2 .btn:hover{
+     background-image: linear-gradient(120deg,rgb(122, 121, 121),rgb(198, 195, 195));
+   color: black;
+}
+
+
+.battserright{
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    padding: 30px;
+}
+.battser_para{
+    max-width: 699px;
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.battserrightmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.battserright2 ul li a{
+    color: black;
+}
+.battserright2 ul li{
+    margin: 30px 0;
+}
+.img_icon{
+    width: 25px;
+  background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+  border-radius: 5px;
+  margin-right: 8px;
+}
+.battserright .bat_vid{
+    border-radius: 20px;
+   background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+   padding: 0 15px 15px 0;
+}
+
+.battser_para2{
+    max-width: 622px;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(104, 102, 102);
+}
+.batt_serbt .btn{
+    background-color: rgb(176, 209, 43);
+    color: black;
+    border-radius: 12px;
+    padding: 8px 20px;
+}
+.batt_serbt .btn:hover{
+    background-color: green;
+    color: white;
+}
+.batt_serbt{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Appointment */
+.appointment{
+    background-image: url('../images/6575742385.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    /* max-height: 600px; */
+      font-family: "Montserrat", sans-serif;
+    position: relative;
+    z-index: 3;
+}
+
+.appointment::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.668);
+    position: absolute;
+     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+.appointment h3{
+    max-width: 501px;
+    width: 100%;
+    font-size: 36px;
+    color: white;
+}
+.appoileft img{
+    width: 100px;
+}
+.appoi_para{
+    font-size: 18px;
+     background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.appoi_para2{
+    max-width: 259px;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+}
+.mainappointment{
+    display: flex;
+}
+.appoiright1{
+    margin-bottom: -90px;
+}
+.appoi_hed{
+    position: relative;
+}
+.appoi_hed::before{
+    content: "";
+    background: linear-gradient(to right,rgb(13, 195, 13),rgb(152, 203, 42)) ;
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    translate: -50% -50%;
+}
+.form_col .btn{
+    background-color: rgb(162, 162, 9);
+    color: black;
+}
+.form_col2 .btn{
+   background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+   padding: 8px 50px;  
+   margin-top: 20px;
+}
+.form-control,.form-select {
+ margin-top: 15px;
+ 
+}
+.form-control:focus,.form-select:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.form_col .btn:hover{
+    background-color: black;
+    color: white;
+}
+.form_col2 .btn:hover{
+    background-image: linear-gradient(to right,white,gray);
+    color: black; 
+}
+.error{
+    color: red;
+}
+/* Team */
+.team{
+     background-image: linear-gradient(120deg,rgb(12, 99, 12),rgb(81, 111, 15));
+     padding-top: 100px;
+     padding-bottom: 100px; 
+      font-family: "Montserrat", sans-serif;
+}
+.mainteam{
+    display: flex;
+    justify-content: space-between;
+}
+.team2 img{
+    width: 100px;
+}
+.team1,.team11{
+    display: flex;
+    align-items: center;
+}
+.team1{
+    position: relative;
+}
+.team1::after{
+  content: "";
+  background: rgb(75, 226, 75);
+  height: 50%;
+  width: 3px;
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  translate: -50% -50%;
+   
+}
+.team_text{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+/* Pricing Plan */
+.pricingplan{
+    background-image: url('../images/Group\ 132.png');
+    background-repeat: no-repeat;
+    /* background-size:auto; */
+    background-position: right;
+   font-family: "Montserrat", sans-serif;   
+    padding: 100px 0;
+}
+.pricingplan h4{
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+}
+.pricingplan h4::before{
+    content: "";
+     background: url('../images/Ellipse\ 9.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+     margin-left: -28px;
+    margin-top: 7px; 
+}
+.pricingplan h4::after{
+     content: "";
+     background: url('../images/Ellipse\ 9.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+     margin-left: 20px;
+    margin-top: 7px;
+}
+.pricingplan h2{
+    max-width: 500px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.pricplan_card{
+     font-family: "Inter", sans-serif;
+    padding: 40px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.pricplan_card:hover,.pric_card:hover{
+ box-shadow: 0 0 50px black;
+}
+.pric_para{
+    font-size: 40px;
+    color: yellowgreen;
+    padding: 15px 0;
+}
+.pricplan_span{
+    font-size: 18px;
+    color: white !important;
+}
+.pric_para2{
+    font-size: 12px;
+    color: rgb(147, 145, 145);
+    padding: 12px 0;
+}
+.pricplanbt .btn{
+   color: white;
+    background: linear-gradient(to right,rgb(13, 195, 13),rgb(152, 203, 42)) ;  
+   border-radius: 12px;
+   padding: 8px 20px;
+}
+.pricplanbt .btn:hover{
+  background-image: linear-gradient(to right,white,gray);
+    color: black; 
+}
+.pric_redio{
+  color: rgb(147, 145, 145);  
+}
+.pric_card{
+    margin-top: 50px;
+}
+/* footer */
+.footer{
+    background-color: rgba(0, 0, 0, 0.532);
+     background-image: url('../images/shape_bg_1-1-1.png');
+     padding-top: 100px;
+     padding-bottom: 100px;
+      font-family: "Montserrat", sans-serif;  
+}
+
+.fot_icon a{
+background-color: rgba(0, 0, 0, 0.566);
+padding: 5px 10px;
+border-radius: 50px;
+margin: 30px 5px;
+}
+.fot_icon a:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.fot1 p{
+    max-width: 257px;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+}
+
+.foot2 p{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 15px;
+    position: relative;
+}
+.foot2 p:before{
+   content: "";
+    background: linear-gradient(to right,rgb(13, 195, 13),rgb(152, 203, 42)) ;
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    translate: -50% -50%;
+}
+
+.foot2 ul{
+    margin-top: 20px;
+}
+.foot2 ul li{
+    margin-bottom: 15px;
+}
+.foot2 ul li a:hover{
+    color: greenyellow;
+}
+.fot_input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.fot_form{
+    position: relative;
+}
+.fot_tele{
+    color: white;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+ .fot_check{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: 12px;
+    padding:1px 2px;
+ }
+
+/* last part */
+.last_fot{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+.last_fot2{
+ display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:1199px) {
+    .batteryser_row{
+   flex-direction: column;
+   align-items: center;
+}
+.batteryser_col2{
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width:991px) {
+     .navlist li{
+    padding: 0 2px;
+}  
+.mainteam{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.team1,.team11{
+    margin-top: 50px;
+}
+.fot_tele{
+    margin-left: 170px;
+}
+}
+@media screen and (max-width:767px){
+    .maintop{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   } 
+   .navbar{
+    margin-top: 70px;
+   } 
+    /* footer */
+    .mainfooter{
+        text-align: center;
+    }
+     .fot1 p{
+       margin: 0 auto;
+    }
+    .foot2 p{
+    margin-top: 15px;
+}
+    .foot2 p:before{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    translate: -50% -50%;
+} 
+   .foot2 p{
+    margin-top: 15px;
+   }
+}
+@media screen and (max-width:575px){
+   .battserrightmain{
+    flex-direction: column;
+}
+.battser1 ul li a{
+  font-size: 12px;
+}
+   /* lastfot */
+   .last_fot2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+   }
+   
+}
+@media screen and (max-width:489px) {
+       .lefttop a{
+    font-size: 12px;
+  } 
+  .lefttop{
+   text-align: center;
+  }
+  .top_span{
+    padding: 0;
+  } 
+  .righttop a{
+    font-size: 10px;
+  }
+  .ban_text h1{
+    font-size: 40px;
+  } 
+    .appoiright h3{
+        font-size: 20px;
+    }
+}

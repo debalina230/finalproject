@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+li{
+    list-style: none;
+}
+p{
+    margin-bottom: 0;
+}
+
+.container{
+    max-width: 1212px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* topbar */
+.topbar{
+    background-image: linear-gradient(to right,rgb(13, 195, 13),rgb(152, 203, 42));
+    padding: 5px 0;
+}
+
+.maintop{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    flex-wrap: wrap;
+   
+}
+.top_span{
+    color: white;
+    padding: 0 20px;
+}
+.righttop a{
+    padding: 0 10px;
+    font-size: 18px;
+}
+.righttop select{
+    background: none;
+    border: none;
+    color: white;
+}
+/* navbar */
+.navbar-toggler{
+    color: white;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.504);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 32px;
+}
+.navlist li{
+    padding: 0 25px;
+    color: white;
+}
+.navlist li a{
+    color: white;
+}
+.active{
+    background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navlist li a:hover{
+    color: greenyellow;
+}
+.nav_icon a{
+    padding: 0 10px;
+}
+.nav_icon2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+/* banner */
+.banner{
+     font-family: "Montserrat", sans-serif;
+    background-image:url('../images/Group\ 6\ \(1\).png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ban_text{
+ padding-top: 40px;
+}
+
+.ban_electric{
+     background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+/* focus */
+.focus{
+    background-image: url('../images/pngwing.com-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.focusmain{
+    background-color: white;
+    box-shadow: 0 0 15px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius:20px ;
+    margin-top: -150px;   
+}
+.focusmain_img img{
+    width: 80px;
+}
+
+.focusmain_icon{
+    background-color: greenyellow;
+    color: white;
+    padding: 2px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.focusmain1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.focusid ul li{
+    padding: 5px 0;
+}
+.focus_scimg img{
+    width: 80px;
+}
+
+
+.focus_left h6{
+     background-image: linear-gradient(120deg,rgb(13, 195, 13),rgb(152, 203, 42));
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.focus_left h2{
+    max-width: 521px;
+    width: 100%;
+    font-size: 36px;
+    margin: 15px 0;
+}
+.focusleftmain{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.focusleft1,.focusleft2{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: black;
+    padding: 15px 19px;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.focuslogo{
+    width: 50px;
+}
+.focuspara{
+    padding-left: 8px;
+}
+.focus_map{
+    max-width: 550px;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.focus_row{
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    padding: 20px 15px;
+    margin-left: 30px;
+}
+.form_con{
+    border: none;
+    background-color: rgb(236, 236, 234);
+    /* margin-top: 20px; */
+    padding: 10px 30px;
+    position: relative;
+}
+.form_con::placeholder{
+    color: black;
+    font-weight: 400;
+}
+.focusbt a{
+     background-image: linear-gradient(to right,rgb(13, 195, 13),rgb(152, 203, 42));
+    color: white;
+     border-radius: 10px; 
+     width: 30%;
+     padding: 10px 15px;
+}
+.focusbt a:hover{
+   background-image: linear-gradient(to right,white,gray);
+    color: black; 
+}
+
+.follow_para{
+    text-align: center;
+    font-weight: 500;
+}
+.follow_icon{
+    text-align: center;
+    margin-top: 20px;
+}
+.follow_icon a{
+    background-color: rgba(0, 0, 0, 0.537);
+    padding: 12px 17px;
+    border-radius: 50px;
+    margin: 0 10px;
+} 
+.follow_icon a:hover{
+    background-color: greenyellow;
+}
+ .focus_col{
+    position: relative;
+ }
+ .focus_icon{
+    color: greenyellow;
+    position: relative;
+    top: 50%;
+    left: 3%;
+    z-index: 1;
+ }
+ .focus_icon2{
+    color: greenyellow;
+    position: relative;
+    top: 50%;
+    left: 2%;
+    z-index: 1; 
+ }
+ .focus_icon3{
+     color: greenyellow;
+    position: relative;
+    top: 15%;
+    left: 2%;
+    z-index: 1; 
+ }
+ .error{
+    color: red;
+ }
+/* footer */
+.footer{
+    background-color: rgba(0, 0, 0, 0.532);
+     background-image: url('../images/shape_bg_1-1-1.png');
+     padding-top: 100px;
+     padding-bottom: 100px;
+      font-family: "Montserrat", sans-serif;  
+}
+
+.fot_icon a{
+background-color: rgba(0, 0, 0, 0.566);
+padding: 5px 10px;
+border-radius: 50px;
+margin: 30px 5px;
+}
+.fot_icon a:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.fot1 p{
+    max-width: 257px;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+}
+
+.foot2 p{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 15px;
+    position: relative;
+}
+.foot2 p:before{
+   content: "";
+    background: linear-gradient(to right,rgb(13, 195, 13),rgb(152, 203, 42)) ;
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    translate: -50% -50%;
+}
+
+.foot2 ul{
+    margin-top: 20px;
+}
+.foot2 ul li{
+    margin-bottom: 15px;
+}
+.foot2 ul li a:hover{
+    color: greenyellow;
+}
+.fot_input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.fot_form{
+    position: relative;
+}
+.fot_tele{
+    color: white;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+ .fot_check{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: 12px;
+    padding:1px 2px;
+ }
+
+/* last part */
+.last_fot{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+.last_fot2{
+ display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:991px) {
+    .navlist li{
+    padding: 0 2px;
+} 
+.focusleftmain{
+    flex-direction: column;
+}
+.focusleft1,.focusleft2{
+    width: 100%;
+    margin-top: 15px;
+} 
+.fot_tele{
+    margin-left: 170px;
+}
+}
+@media screen and (max-width:767px){
+    .maintop{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   } 
+   .navbar{
+    margin-top: 70px;
+   }
+   .focusbt a{
+    width: 100%;
+   }
+   .foot2 p{
+    margin-top: 15px;
+}
+}
+@media screen and (max-width:575px){
+     /* footer */
+    .mainfooter{
+        text-align: center;
+    }
+    .fot1 p{
+       margin: 0 auto;
+    }
+    .foot2 p:before{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    translate: -50% -50%;
+}
+     /* lastfot */
+   .last_fot2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+   }
+}
+@media screen and (max-width:489px){
+  .lefttop a{
+    font-size: 12px;
+  } 
+  .lefttop{
+   text-align: center;
+  }
+  .top_span{
+    padding: 0;
+  } 
+  .righttop a{
+    font-size: 10px;
+  }
+  .ban_text h1{
+    font-size: 40px;
+  }
+ .focusmain1{
+   flex-direction: column;
+}
+}

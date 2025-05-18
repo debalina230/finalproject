@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign in</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="container">
+        <div class="row g-0 bg-body-secondary form_row position-relative">
+          <div class="col-md-6">
+            <div class="formleft rounded-start-4">
+              <span><img src="./images/logo.png" alt="logo" /></span>
+              <h2>Welcome Back</h2>
+              <p>To keep connect with us please log in with your details</p>
+              <a href="#" class="btn">Sign in</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="formright rounded-end-4">
+              <h3 class="mt-0">Create Account</h3>
+              <div class="form_icon mt-4">
+                <a class="fb" href="#"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a class="go" href="#"
+                  ><i class="fa-brands fa-google-plus-g"></i
+                ></a>
+                <a class="tw" href="#"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+              </div>
+              <p class="mt-5 mb-4">Or use your email for registration</p>
+              <form class="sign_form">
+                <span class="input_icon1 mt-2"
+                ><i class="fa-solid fa-user"></i
+                  ></span>
+                  <input class="form_input " type="text" name="name" id="name" placeholder="  Name" />
+                  <p class="error nameErr"></p>
+
+                  <span class="input_icon2 px-3"
+                  ><i class="fa-solid fa-envelope"></i
+                    ></span>
+                <input class="form_input" type="email" mane="mail" id="mail" placeholder="  Email" />
+                <p class="error mailErr"></p>
+                <span class="input_icon3 px-3"
+                  ><i class="fa-solid fa-lock"></i
+                ></span>
+                <input
+                 class="form_input"
+                  type="password"
+                  name="psw"
+                  id="psw"
+                  placeholder="  Password"
+                />
+                <p class="error pswErr"></p>
+              </form>
+              <div class="formrightbt mt-4">
+                <a href="./form2.html" class="btn">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/form.js"></script>
+  </body>
+</html>
