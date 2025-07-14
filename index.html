@@ -6,7 +6,7 @@
     <title>Figma</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
 
-     <link
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
@@ -53,7 +53,7 @@
             ><img src="./images/logo.png" alt="logo"
           /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -63,10 +63,15 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse nav_coll" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navlist">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./home.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./service.html">Service</a>
@@ -218,7 +223,9 @@
                     Battery replacement & upgrade, health monitoring and
                     chargingoptimization
                   </p>
-                  <a href="./batterySurvice.html" class="btn btn-primary">View details</a>
+                  <a href="./batterySurvice.html" class="btn btn-primary"
+                    >View details</a
+                  >
                 </div>
               </div>
             </div>
@@ -450,112 +457,112 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-md-6 mb-md-0 p-md-4  appoiright"
-            >
+            <div class="col-md-6 mb-md-0 p-md-4 appoiright">
               <div class="appoiright1 bg-light rounded-4 p-5">
-              <h3 class="appoi_hed text-dark">Book An Appointment</h3>
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Name"
-                  />
-                  <p class="error nameErr"></p>
-                </div>
-                <div class="col-md-6">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="mail"
-                    placeholder="Email"
-                  />
-                   <p class="error mailErr"></p>
-                </div>
-                <div class="col-md-6">
-                  <input
-                    type="number"
-                    class="form-control"
-                    id="ph"
-                    placeholder="Phone"
-                  />
-                   <p class="error phoneErr"></p>
-                </div>
-                <div class="col-md-6">
-                  <select id="inputState" class="form-select">
-                    <option selected>Brand</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="col-md-6">
-                  <input
-                    type="date"
-                    class="form-control"
-                    id="inputdate"
-                    placeholder="dd/mm/yyy"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <select id="inputState" class="form-select">
-                    <option selected>Select Service</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="col-12">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputAddress"
-                    placeholder="Pick-Up Address"
-                  />
-                </div>
+                <h3 class="appoi_hed text-dark">Book An Appointment</h3>
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Name"
+                    />
+                    <p class="error nameErr"></p>
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="mail"
+                      placeholder="Email"
+                    />
+                    <p class="error mailErr"></p>
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="ph"
+                      placeholder="Phone"
+                    />
+                    <p class="error phoneErr"></p>
+                  </div>
+                  <div class="col-md-6">
+                    <select id="inputState" class="form-select">
+                      <option selected>Brand</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="inputdate"
+                      placeholder="dd/mm/yyy"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <select id="inputState" class="form-select">
+                      <option selected>Select Service</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputAddress"
+                      placeholder="Pick-Up Address"
+                    />
+                  </div>
 
-                <div class="col-md-6">
-                  <p>Do you have any plan ?</p>
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="gridRadios"
-                    id="gridRadios1"
-                    value="option1"
-                    checked
-                  />
-                  <label class="form-check-label" for="gridRadios1">
-                    Yes
-                  </label>
+                  <div class="col-md-6">
+                    <p>Do you have any plan ?</p>
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gridRadios"
+                      id="gridRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="gridRadios1">
+                      Yes
+                    </label>
 
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="gridRadios"
-                    id="gridRadios1"
-                    value="option1"
-                    checked
-                  />
-                  <label class="form-check-label" for="gridRadios1"> No </label>
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gridRadios"
+                      id="gridRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="gridRadios1">
+                      No
+                    </label>
+                  </div>
+                  <div class="col-6 form_col">
+                    <button type="submit" class="btn">Check Estimate</button>
+                  </div>
+                  <div class="col-12 text-center form_col2">
+                    <button type="submit" class="btn">Submit Now</button>
+                  </div>
+                </form>
+                <div class="mt-4">
+                  <p>
+                    <span class="text-danger">Note:</span> A wonderful serenity
+                    taken possession into entire soul like to these sweet of
+                    tence.
+                  </p>
                 </div>
-                <div class="col-6 form_col">
-                  <button type="submit" class="btn">Check Estimate</button>
-                </div>
-                <div class="col-12 text-center form_col2">
-                  <button type="submit" class="btn">Submit Now</button>
-                </div>
-              </form>
-              <div class="mt-4">
-                <p>
-                  <span class="text-danger">Note:</span> A wonderful serenity
-                  taken possession into entire soul like to these sweet of
-                  tence.
-                </p>
               </div>
-            </div>
             </div>
           </div>
         </div>
       </section>
-
+      
       <!-- process -->
       <section class="process">
         <div class="container">
@@ -649,7 +656,9 @@
             <div class="leftnear">
               <h2>Find Nearest Charging Station</h2>
               <form class="near_form">
-                <span class="near_bt"><i class="fa-solid fa-location-dot"></i></span>
+                <span class="near_bt"
+                  ><i class="fa-solid fa-location-dot"></i
+                ></span>
                 <input
                   class="input1"
                   type="text"
@@ -927,63 +936,121 @@
             These people works very hard to make our services more easier and
             accessable
           </p>
-          <div class="mainmeet">
-            <div class="meet1">
-              <div class="meet_img">
-              <img src="./images/team-3-400x510.png" alt="team1">
+
+          <div class="swiper mySwiperr">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="meet1">
+                  <div class="meet_img">
+                    <img src="./images/team-3-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Mahesh Soni</h5>
+                  <p>Founder</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
-              <h5 class="mt-2">Mahesh Soni</h5>
-              <p>Founder</p>
-              <div class="meet_icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <div class="swiper-slide">
+                <div class="meet2">
+                  <div class="meet_img">
+                    <img src="./images/team-2-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Mika Paul</h5>
+                  <p>CEO</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet3">
+                  <div class="meet_img">
+                    <img src="./images/team-4-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Abhinash Singh</h5>
+                  <p>Team Lead</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet4">
+                  <div class="meet_img">
+                    <img src="./images/team-6-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Hema Kapi</h5>
+                  <p>CTO</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet1">
+                  <div class="meet_img">
+                    <img src="./images/team-3-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Mahesh Soni</h5>
+                  <p>Founder</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet2">
+                  <div class="meet_img">
+                    <img src="./images/team-2-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Mika Paul</h5>
+                  <p>CEO</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet3">
+                  <div class="meet_img">
+                    <img src="./images/team-4-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Abhinash Singh</h5>
+                  <p>Team Lead</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="meet2">
-              <div class="meet_img">
-              <img src="./images/team-2-400x510.png" alt="team1">
-              </div>
-               <h5 class="mt-2">Mika Paul</h5>
-              <p>CEO</p>
-              <div class="meet_icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="meet3">
-              <div class="meet_img">
-              <img src="./images/team-4-400x510.png" alt="team1">
-              </div>
-               <h5 class="mt-2">Abhinash Singh</h5>
-              <p>Team Lead</p>
-              <div class="meet_icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="meet4">
-              <div class="meet_img">
-              <img src="./images/team-6-400x510.png" alt="team1">
-              </div>
-               <h5 class="mt-2">Hema Kapi</h5>
-              <p>CTO</p>
-              <div class="meet_icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-            </div>
+            <!-- <div class="swiper-pagination"></div> -->
           </div>
           <div class="meet_arrow mt-5">
-            <a href="#"><i class="fa-solid fa-angle-left"></i></a>
-            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+            <a class="meetarrow1" href="#"
+              ><i class="fa-solid fa-angle-left"></i
+            ></a>
+            <a class="meetarrow2" href="#"
+              ><i class="fa-solid fa-angle-right"></i
+            ></a>
           </div>
         </div>
       </section>
-       <!-- Clints Love -->
+      <!-- Clints Love -->
       <section class="clints">
         <div class="row g-0 position-relative clint_row">
           <div class="col-md-6 mb-md-0 p-md-4">
@@ -1014,18 +1081,20 @@
                       </div>
                     </div>
                     <p class="my-4">
-                     Absolutely incredible service! My car looks brand new inside and out. The attention to detail was phenomenal. I couldn’t be happier with the results. Highly recommend...
+                      Absolutely incredible service! My car looks brand new
+                      inside and out. The attention to detail was phenomenal. I
+                      couldn’t be happier with the results. Highly recommend...
                     </p>
                     <div class="clintbt">
-                    <a href="#" class="btn">Read full story</a>
-                  </div>
-                  <div class="clintdot">
-                    <img src="./images/Get Quote (1).png" alt="quote">
-                  </div>
+                      <a href="#" class="btn">Read full story</a>
+                    </div>
+                    <div class="clintdot">
+                      <img src="./images/Get Quote (1).png" alt="quote" />
+                    </div>
                   </div>
                 </div>
                 <div class="swiper-slide">
-                   <div class="clintright">
+                  <div class="clintright">
                     <div class="clintright1">
                       <div class="clint_img">
                         <img src="./images/Group 135 (1).png" alt="man" />
@@ -1037,14 +1106,16 @@
                       </div>
                     </div>
                     <p class="my-4">
-                     Absolutely incredible service! My car looks brand new inside and out. The attention to detail was phenomenal. I couldn’t be happier with the results. Highly recommend...
+                      Absolutely incredible service! My car looks brand new
+                      inside and out. The attention to detail was phenomenal. I
+                      couldn’t be happier with the results. Highly recommend...
                     </p>
                     <div class="clintbt">
-                    <a href="#" class="btn">Read full story</a>
-                  </div>
-                  <div class="clintdot">
-                    <img src="./images/Get Quote (1).png" alt="quote">
-                  </div>
+                      <a href="#" class="btn">Read full story</a>
+                    </div>
+                    <div class="clintdot">
+                      <img src="./images/Get Quote (1).png" alt="quote" />
+                    </div>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -1060,18 +1131,20 @@
                       </div>
                     </div>
                     <p class="my-4">
-                     Absolutely incredible service! My car looks brand new inside and out. The attention to detail was phenomenal. I couldn’t be happier with the results. Highly recommend...
+                      Absolutely incredible service! My car looks brand new
+                      inside and out. The attention to detail was phenomenal. I
+                      couldn’t be happier with the results. Highly recommend...
                     </p>
                     <div class="clintbt">
-                    <a href="#" class="btn">Read full story</a>
-                  </div>
-                  <div class="clintdot">
-                    <img src="./images/Get Quote (1).png" alt="quote">
-                  </div>
+                      <a href="#" class="btn">Read full story</a>
+                    </div>
+                    <div class="clintdot">
+                      <img src="./images/Get Quote (1).png" alt="quote" />
+                    </div>
                   </div>
                 </div>
                 <div class="swiper-slide">
-                   <div class="clintright">
+                  <div class="clintright">
                     <div class="clintright1">
                       <div class="clint_img">
                         <img src="./images/Group 135 (1).png" alt="man" />
@@ -1083,14 +1156,16 @@
                       </div>
                     </div>
                     <p class="my-4">
-                     Absolutely incredible service! My car looks brand new inside and out. The attention to detail was phenomenal. I couldn’t be happier with the results. Highly recommend...
+                      Absolutely incredible service! My car looks brand new
+                      inside and out. The attention to detail was phenomenal. I
+                      couldn’t be happier with the results. Highly recommend...
                     </p>
                     <div class="clintbt">
-                    <a href="#" class="btn">Read full story</a>
-                  </div>
-                  <div class="clintdot">
-                    <img src="./images/Get Quote (1).png" alt="quote">
-                  </div>
+                      <a href="#" class="btn">Read full story</a>
+                    </div>
+                    <div class="clintdot">
+                      <img src="./images/Get Quote (1).png" alt="quote" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1145,27 +1220,23 @@
               </div>
               <div class="account">
                 <div class="question">
-                  <p class="qu1">
-                    2. Can I get full service in two days ?
-                  </p>
+                  <p class="qu1">2. Can I get full service in two days ?</p>
                   <button class="accountMinus icon minus">
-                     <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-left"></i>
                   </button>
                   <button class="icon accountPlus">
-                     <i class="fa-solid fa-angle-right"></i>
+                    <i class="fa-solid fa-angle-right"></i>
                   </button>
                 </div>
                 <p class="accountAnswer">
-                 The time it takes to paint a car repair depends on various
+                  The time it takes to paint a car repair depends on various
                   factors, such as the extent of damage, the size of the area to
                   be painted, the type of paint used
                 </p>
               </div>
               <div class="category">
                 <div class="question">
-                  <p class="qu1">
-                    3.Do you sell speare parts ?
-                  </p>
+                  <p class="qu1">3.Do you sell speare parts ?</p>
                   <button class="categoryMinus icon minus">
                     <i class="fa-solid fa-angle-left"></i>
                   </button>
@@ -1181,9 +1252,7 @@
               </div>
               <div class="category">
                 <div class="question">
-                  <p class="qu1">
-                    4. Do you deliver car at home ?
-                  </p>
+                  <p class="qu1">4. Do you deliver car at home ?</p>
                   <button class="categoryangleleft icon minus">
                     <i class="fa-solid fa-angle-left"></i>
                   </button>
@@ -1192,7 +1261,7 @@
                   </button>
                 </div>
                 <p class="categorypara">
-                 The time it takes to paint a car repair depends on various
+                  The time it takes to paint a car repair depends on various
                   factors, such as the extent of damage, the size of the area to
                   be painted, the type of paint used
                 </p>
@@ -1203,14 +1272,14 @@
                     5. How long does it take to dry a full paint ?
                   </p>
                   <button class="categoryangleleftpara icon minus">
-                     <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-left"></i>
                   </button>
                   <button class="icon categoryanglerightpara">
-                     <i class="fa-solid fa-angle-right"></i>
+                    <i class="fa-solid fa-angle-right"></i>
                   </button>
                 </div>
                 <p class="categorytext">
-                 The time it takes to paint a car repair depends on various
+                  The time it takes to paint a car repair depends on various
                   factors, such as the extent of damage, the size of the area to
                   be painted, the type of paint used
                 </p>
@@ -1246,7 +1315,7 @@
     <!-- footer -->
     <div class="footer">
       <div class="container">
-        <div class="  row row-cols-1 row-cols-sm-2 row-cols-md-4 mainfooter">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mainfooter">
           <div class="col fot1">
             <span
               ><a href="#"><img src="./images/logo.png" alt="fotlogo" /></a
@@ -1302,10 +1371,14 @@
             <p>Our Links</p>
             <ul>
               <li>
-                <a href="#"><i class="fa-solid fa-angles-right"></i> About Us</a>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> About Us</a
+                >
               </li>
               <li>
-                <a href="#"><i class="fa-solid fa-angles-right"></i> Services</a>
+                <a href="#"
+                  ><i class="fa-solid fa-angles-right"></i> Services</a
+                >
               </li>
               <li>
                 <a href="#"
@@ -1351,7 +1424,9 @@
               >Sign Up for Newsletter</span
             >
             <form class="fot_form">
-            <span class="fot_tele"><i class="fa-brands fa-telegram"></i></span>
+              <span class="fot_tele"
+                ><i class="fa-brands fa-telegram"></i
+              ></span>
               <input
                 class="fot_input"
                 type="email"
@@ -1360,7 +1435,10 @@
               />
             </form>
             <div class="fot_correct mt-2 text-light">
-              <span><i class="fa-solid fa-check fot_check"></i> agree with all terms and policies</span>
+              <span
+                ><i class="fa-solid fa-check fot_check"></i> agree with all
+                terms and policies</span
+              >
             </div>
           </div>
         </div>
@@ -1376,7 +1454,7 @@
             </p>
           </div>
           <div>
-             <a href="#">Privacy Policy | Trems & Condition</a>
+            <a href="#">Privacy Policy | Trems & Condition</a>
           </div>
         </div>
       </div>
@@ -1387,7 +1465,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./js/index.js"></script>
   </body>

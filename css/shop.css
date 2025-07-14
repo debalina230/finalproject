@@ -229,7 +229,6 @@ p{
 }
 .category_card:hover{
   box-shadow: 0 10px 20px rgb(158, 226, 22);
-  opacity: 0.7;
 }
 
 .filter img{
@@ -406,6 +405,7 @@ color: white;
 }
 .pricplan_card:hover,.pric_card:hover{
  box-shadow: 0 0 50px black;
+ transform: scale(0.9);
 }
 .pric_para{
     font-size: 40px;

@@ -422,6 +422,7 @@ p{
 }
 .pricplan_card:hover,.pric_card:hover{
  box-shadow: 0 0 50px black;
+ transform: scale(0.9);
 }
 .pric_para{
     font-size: 40px;

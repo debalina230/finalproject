@@ -49,6 +49,13 @@
     $('.categoryanglerightpara').show();
   })
 })
+
+$('.toggler').on('click',function(){
+  $('.toggler')
+  .css({backgroundColor:'white'})
+  $('.nav_coll')
+  .css({backgroundColor:'  rgba(0, 0, 0, 0.708)',fontSize:'20px',fontWeight:'bold'})
+})
 })
     
  
@@ -66,6 +73,34 @@
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+      },
+    });
+
+
+     var swiper = new Swiper(".mySwiperr", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 5,
+        },
+      },
+       navigation: {
+        nextEl: ".meetarrow1",
+        prevEl: ".meetarrow2",
       },
     });
 

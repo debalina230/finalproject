@@ -212,6 +212,7 @@ position: relative;
 }
 .ser_card1:hover,.ser_card2:hover,.ser_card3:hover,.ser_card4:hover{
     box-shadow:0 0 20px black ;
+    transform: scale(0.9);
 }
 .cr_text{
     font-size: 15px;
@@ -342,7 +343,6 @@ position: relative;
 }
 .mainpopuser:hover{
    box-shadow: 10px 10px 20px yellowgreen;
-   opacity: 0.8;
 }
 
 .popuser1{
@@ -529,6 +529,7 @@ width: 100%;
 }
 .pricplan_card:hover,.pric_card:hover{
  box-shadow: 0 0 50px black;
+ transform: scale(0.9);
 }
 .pric_para{
     font-size: 40px;

@@ -46,4 +46,11 @@
     $(this).hide();
     $('.categoryanglerightpara').show();
   })
+
+  $('.toggler').on('click',function(){
+  $('.toggler')
+  .css({backgroundColor:'white'})
+  $('.nav_coll')
+  .css({backgroundColor:'  rgba(0, 0, 0, 0.708)',fontSize:'20px',fontWeight:'bold'})
+})
 })

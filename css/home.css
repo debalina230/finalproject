@@ -903,6 +903,29 @@ select{
     font-size: 30px;
     margin:0 50px;
 }
+
+ .swiper {
+    margin-top: 30px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 20px;
+      /* background: #fff; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin-top:0;
+      object-fit: cover;
+    }
 /* Clints Love */
 .clints{
      background-image: linear-gradient(to right,rgb(120, 198, 120),rgb(97, 138, 8));
@@ -1128,6 +1151,7 @@ select{
 button{
     border: none;
 }
+
 
 /* Phone App */
 .phoneapp{

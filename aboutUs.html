@@ -52,7 +52,7 @@
             ><img src="./images/logo.png" alt="logo"
           /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -62,16 +62,16 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse nav_coll" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navlist">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./service.html">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link  active" href="#">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./shop.html">Shop</a>
@@ -99,7 +99,7 @@
             <h1>About Us</h1>
             <span class="text-light"
               >Home <i class="fa-solid fa-angles-right"></i> </span
-            ><span class="ban_electric">About Us</span>
+            ><a href="#" class="ban_electric">About Us</a>
           </div>
         </div>
       </section>
@@ -203,7 +203,7 @@
           </div>
         </div>
       </section>
-      <!-- Meet the Brains -->
+       <!-- Meet the Brains -->
       <section class="meetBrains">
         <div class="container">
           <h4>Our Team</h4>
@@ -212,59 +212,117 @@
             These people works very hard to make our services more easier and
             accessable
           </p>
-          <div class="mainmeet">
-            <div class="meet1">
-              <div class="meet_img">
-                <img src="./images/team-3-400x510.png" alt="team1" />
+
+          <div class="swiper mySwiperr">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="meet1">
+                  <div class="meet_img">
+                    <img src="./images/team-3-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Mahesh Soni</h5>
+                  <p>Founder</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
-              <h5 class="mt-2">Mahesh Soni</h5>
-              <p>Founder</p>
-              <div class="meet_icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <div class="swiper-slide">
+                <div class="meet2">
+                  <div class="meet_img">
+                    <img src="./images/team-2-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Mika Paul</h5>
+                  <p>CEO</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet3">
+                  <div class="meet_img">
+                    <img src="./images/team-4-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Abhinash Singh</h5>
+                  <p>Team Lead</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet4">
+                  <div class="meet_img">
+                    <img src="./images/team-6-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Hema Kapi</h5>
+                  <p>CTO</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet1">
+                  <div class="meet_img">
+                    <img src="./images/team-3-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Mahesh Soni</h5>
+                  <p>Founder</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet2">
+                  <div class="meet_img">
+                    <img src="./images/team-2-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Mika Paul</h5>
+                  <p>CEO</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="meet3">
+                  <div class="meet_img">
+                    <img src="./images/team-4-400x510.png" alt="team1" />
+                  </div>
+                  <h5 class="mt-2">Abhinash Singh</h5>
+                  <p>Team Lead</p>
+                  <div class="meet_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="meet2">
-              <div class="meet_img">
-                <img src="./images/team-2-400x510.png" alt="team1" />
-              </div>
-              <h5 class="mt-2">Mika Paul</h5>
-              <p>CEO</p>
-              <div class="meet_icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="meet3">
-              <div class="meet_img">
-                <img src="./images/team-4-400x510.png" alt="team1" />
-              </div>
-              <h5 class="mt-2">Abhinash Singh</h5>
-              <p>Team Lead</p>
-              <div class="meet_icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="meet4">
-              <div class="meet_img">
-                <img src="./images/team-6-400x510.png" alt="team1" />
-              </div>
-              <h5 class="mt-2">Hema Kapi</h5>
-              <p>CTO</p>
-              <div class="meet_icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
           <div class="meet_arrow mt-5">
-            <a href="#"><i class="fa-solid fa-angle-left"></i></a>
-            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+            <a class="meetarrow1" href="#"
+              ><i class="fa-solid fa-angle-left"></i
+            ></a>
+            <a class="meetarrow2" href="#"
+              ><i class="fa-solid fa-angle-right"></i
+            ></a>
           </div>
         </div>
       </section>
